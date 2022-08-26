@@ -1,0 +1,72 @@
+.card {
+  padding: 2rem;
+  border: 5px solid #ccc;
+  border-radius: 1.5rem;
+  max-width: 18rem;
+  text-align: center;
+
+  img {
+    width: 18rem;
+    height: auto;
+    border-radius: 1rem;
+  }
+
+  h2 {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+  .price {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 0;
+  }
+
+  .price-discount {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    margin: 0;
+    margin-bottom: 1rem;
+    color: red;
+  }
+
+  .btns {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    .btn-add {
+      background-color: #00bcd4;
+      color: #fff;
+      border: none;
+      padding: 0.7rem 1rem;
+      border-radius: 1rem;
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+    .btn-remove {
+      background-color: #f44336;
+      color: #fff;
+      border: none;
+      padding: 0.7rem 1rem;
+      border-radius: 1rem;
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+  }
+}
