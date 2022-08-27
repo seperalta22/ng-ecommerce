@@ -2,8 +2,9 @@
   <img [src]="tshirt.image" alt="tshirt image">
   <h2>{{tshirt.name }}</h2>
   <p>{{tshirt.description}}</p>
-  <h3 class="price">$ {{tshirt.price}} </h3>
+  <h3 class="price">{{tshirt.price | currency }} </h3>
   <h3 class="price-discount"> $ {{tshirt.price +5}}</h3>
+  <p>{{today| date}} </p>
   <div class="btns">
     <button class="btn-add" (click)="addToCart()">Add to Card</button>
     <button class="btn-remove">Remove Item</button></div>

@@ -28,6 +28,8 @@ export class ProductComponent implements OnInit, OnChanges {
 
   @Output() AddToCartEvent = new EventEmitter();
 
+  today = new Date();
+
   addToCart(): void {
     console.log('esto viene del product component');
     this.AddToCartEvent.emit(this.tshirt.id);
