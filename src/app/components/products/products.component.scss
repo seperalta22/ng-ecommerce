@@ -1,0 +1,15 @@
+:host {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 3rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  text-align: center;
+}

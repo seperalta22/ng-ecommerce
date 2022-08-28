@@ -1,0 +1,27 @@
+<p>demo works!</p>
+<input type="text" [(ngModel)]="title">
+<input type="text" [(ngModel)]="power">
+
+<h2>{{power|exponential}} </h2>
+
+
+<h1>{{title}}</h1>
+
+<div *ngIf="title =='1'">
+  este es un div
+</div>
+
+<div class="" [ngSwitch]="title">
+  <p *ngSwitchCase="'sergio'">
+    este es un parrafo que se muestra a Sergio
+  </p>
+  <p *ngSwitchCase="'2'">
+    este es un parrafo que reacciona al 2
+  </p>
+  <p *ngSwitchDefault>
+    este es un del e-store
+  </p>
+</div>
+
+
+<!-- <button (click)="addItem()">Add Item</button> -->

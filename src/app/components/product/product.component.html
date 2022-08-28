@@ -1,6 +1,6 @@
 <div class="card">
   <img [src]="tshirt.image" alt="tshirt image">
-  <h2>{{tshirt.name }}</h2>
+  <h2 appHighlight>{{tshirt.name }}</h2>
   <p>{{tshirt.description}}</p>
   <h3 class="price">{{tshirt.price | currency }} </h3>
   <h3 class="price-discount"> $ {{tshirt.price +5}}</h3>
