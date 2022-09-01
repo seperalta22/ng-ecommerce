@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ITshirt } from './models/tshits.model';
 
 @Component({
   selector: 'app-root',

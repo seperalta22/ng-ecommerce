@@ -1,4 +1,4 @@
-<div class="container">
+<!-- <div class="container">
   <a class="logo" routerLink="/home">
     <img src="assets/img/logo.png" alt="logo">
     <h1>NG T-Shirts</h1>
@@ -8,4 +8,24 @@
     <a routerLink="/products" routerLinkActive="active">Products</a>
     <a routerLink="/contact" routerLinkActive="active">Contact</a>
   </nav>
-</div>
+
+</div> -->
+
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <a class="logo" routerLink="/home">
+      <img src="assets/img/logo.png" alt="logo">
+      <h1>NG T-Shirts</h1>
+    </a>
+    <nav>
+      <a mat-button routerLink="/home" routerLinkActive="active">Home</a>
+      <a mat-button routerLink="/products" routerLinkActive="active">Products</a>
+      <a mat-button routerLink="/contact" routerLinkActive="active">Contact</a>
+    </nav>
+    <a mat-raised-button matBadge="7" matBadgeColor="warn" href="">
+      <span class="material-icons">
+        shopping_cart
+      </span>My Cart</a>
+  </mat-toolbar-row>
+
+</mat-toolbar>

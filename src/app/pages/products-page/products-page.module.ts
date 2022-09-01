@@ -6,9 +6,16 @@ import { ProductsPageComponent } from './components/products-page/products-page.
 import { FormsModule } from '@angular/forms';
 import { ProductsPageRoutingModule } from './products-page-routing.module';
 import { SharedModule } from '../../shared/shared.module';
+import { MaterialModule } from '../../material/material.module';
 
 @NgModule({
   declarations: [ProductComponent, ProductsComponent, ProductsPageComponent],
-  imports: [CommonModule, FormsModule, ProductsPageRoutingModule, SharedModule],
+  imports: [
+    CommonModule,
+    FormsModule,
+    ProductsPageRoutingModule,
+    SharedModule,
+    MaterialModule,
+  ],
 })
 export class ProductsPageModule {}

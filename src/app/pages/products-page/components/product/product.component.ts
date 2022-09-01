@@ -16,7 +16,7 @@ import { ITshirt } from '../../../../models/tshits.model';
 })
 export class ProductComponent implements OnInit, OnChanges {
   @Input() tshirt: ITshirt = {
-    id: 1,
+    id: '1',
     name: 'Vue.js T-Shirt',
     image: '../assets/img/1.vue.jpg',
     price: 19.99,
